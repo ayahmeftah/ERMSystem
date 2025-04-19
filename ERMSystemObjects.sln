@@ -5,6 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERMSystemObjects", "ERMSystemObjects\ERMSystemObjects.csproj", "{34840B87-5BD9-449B-8874-678223D059C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{3C9CF45C-A772-43E6-8EFD-9699F741E794}"
+	ProjectSection(SolutionItems) = preProject
+		..\ERMSystemDB.sql = ..\ERMSystemDB.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
